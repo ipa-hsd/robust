@@ -40,3 +40,13 @@ fix:
   languages:
     - Python
   time: 2015-03-13 (16:21)
+time-machine:
+  ros_distro: indigo
+  ros_pkgs:
+    - cob_command_gui
+  issue: https://github.com/ipa320/cob_command_tools/issues/74
+bugzoo:
+  is-build-failure: false
+  bug-commit: da9103717cfe1e1150ad3b01cb821fd16d77d586
+  fix-commit: c8091b68c69eeae0bb7777ad6fa44d644c20f96c
+  fork-url: https://github.com/robust-rosin/cob_command_tools
