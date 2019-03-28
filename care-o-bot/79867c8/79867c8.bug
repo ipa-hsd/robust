@@ -38,7 +38,7 @@ bug:
   application: null
   task: null
   subsystem: specific application component
-  package: cob_android
+  package: cob_android_msgs cob_android_script_server
   languages: null
   detected-by: developer
   reported-by: developer
@@ -55,3 +55,14 @@ fix:
   languages:
     - CMake
   time: 2015-08-04 (16:26)
+time-machine:
+  ros_distro: indigo
+  ros_pkgs: cob_android_msgs cob_android_script_server
+  issue: https://github.com/ipa320/cob_android/issues/7
+bugzoo:
+  fork-urls: 
+    - https://github.com/robust-rosin/cob_android
+  is-build-failure: no
+  use-osrf: no  # [optional]
+  bug-commit: 21126f5e3d2e15ae8c93705dc3e8e999707da48e
+  fix-commit: 79867c88acc64342f061e6324ed6b84ca7e0773d
