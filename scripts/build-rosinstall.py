@@ -57,8 +57,8 @@ def _time_machine(packages,
                              stdout=subprocess.PIPE)
         contents = res.stdout.decode('utf-8')
     except subprocess.CalledProcessError as err:
-        logger.warning("time machine failed (return code: %d) for bug [%s]",
-                       err.returncode, fn_bug_desc)
+        logger.warning("time machine failed (return code: %d)",
+                       err.returncode)
         return
 
     return {e['tar']['local-name']: e['tar'] for e in yaml.load(contents)}
@@ -98,7 +98,11 @@ def build_file(fn_bug_desc, overwrite=False):
     ros_pkgs = d['time-machine']['ros_pkgs']
     missing_deps = d['time-machine'].get('missing-dependencies', [])
 
-    if 'issue' in d['time-machine']:
+    if 'datetime' in d['time-machine']:
+        dt = d['time-machine']['datetime'].isoformat()
+        if dt[-1] != 'Z':
+            dt += 'Z'
+    elif 'issue' in d['time-machine']:
         url_issue = d['time-machine']['issue']
         try:
             dt = gh_issue_to_datetime(url_issue)
@@ -106,10 +110,6 @@ def build_file(fn_bug_desc, overwrite=False):
             m = "failed to convert GitHub issue to ISO 8601 timestamp: {}"
             m = m.format(url_issue)
             raise Exception(m)
-    elif 'datetime' in d['time-machine']:
-        dt = d['time-machine']['datetime'].isoformat()
-        if dt[-1] != 'Z':
-            dt += 'Z'
     else:
         raise Exception("expected 'issue' or 'datetime' in 'time-machine'")
 
