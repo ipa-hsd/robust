@@ -57,8 +57,12 @@ fix:
   time: 2015-08-04 (16:26)
 time-machine:
   ros_distro: indigo
-  ros_pkgs: cob_android_msgs cob_android_script_server
+  ros_pkgs: 
+    - cob_android_msgs 
+    - cob_android_script_server
   issue: https://github.com/ipa320/cob_android/issues/7
+  missing-dependencies:
+    - cob_common
 bugzoo:
   fork-urls: 
     - https://github.com/robust-rosin/cob_android

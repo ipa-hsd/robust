@@ -7,14 +7,6 @@
     uri: https://github.com/ros-gbp/geometry_angles_utils-release/archive/release/indigo/angles/1.9.9-0.tar.gz
     version: geometry_angles_utils-release-release-indigo-angles-1.9.9-0
 - tar:
-    local-name: audio_common/audio_common_msgs
-    uri: https://github.com/ros-gbp/audio_common-release/archive/release/indigo/audio_common_msgs/0.2.7-1.tar.gz
-    version: audio_common-release-release-indigo-audio_common_msgs-0.2.7-1
-- tar:
-    local-name: audio_common/sound_play
-    uri: https://github.com/ros-gbp/audio_common-release/archive/release/indigo/sound_play/0.2.7-1.tar.gz
-    version: audio_common-release-release-indigo-sound_play-0.2.7-1
-- tar:
     local-name: catkin
     uri: https://github.com/ros-gbp/catkin-release/archive/release/indigo/catkin/0.6.14-0.tar.gz
     version: catkin-release-release-indigo-catkin-0.6.14-0
@@ -23,29 +15,25 @@
     uri: https://github.com/ros-gbp/cmake_modules-release/archive/release/indigo/cmake_modules/0.3.3-0.tar.gz
     version: cmake_modules-release-release-indigo-cmake_modules-0.3.3-0
 - tar:
-    local-name: cob_command_tools/cob_script_server
-    uri: https://github.com/ipa320/cob_command_tools-release/archive/release/indigo/cob_script_server/0.6.3-0.tar.gz
-    version: cob_command_tools-release-release-indigo-cob_script_server-0.6.3-0
+    local-name: cob_common/cob_description
+    uri: https://github.com/ipa320/cob_common-release/archive/release/indigo/cob_description/0.6.4-0.tar.gz
+    version: cob_common-release-release-indigo-cob_description-0.6.4-0
 - tar:
-    local-name: cob_driver/cob_light
-    uri: https://github.com/ipa320/cob_driver-release/archive/release/indigo/cob_light/0.6.4-0.tar.gz
-    version: cob_driver-release-release-indigo-cob_light-0.6.4-0
+    local-name: cob_common/cob_msgs
+    uri: https://github.com/ipa320/cob_common-release/archive/release/indigo/cob_msgs/0.6.4-0.tar.gz
+    version: cob_common-release-release-indigo-cob_msgs-0.6.4-0
 - tar:
-    local-name: cob_driver/cob_mimic
-    uri: https://github.com/ipa320/cob_driver-release/archive/release/indigo/cob_mimic/0.6.4-0.tar.gz
-    version: cob_driver-release-release-indigo-cob_mimic-0.6.4-0
+    local-name: cob_common/cob_srvs
+    uri: https://github.com/ipa320/cob_common-release/archive/release/indigo/cob_srvs/0.6.4-0.tar.gz
+    version: cob_common-release-release-indigo-cob_srvs-0.6.4-0
 - tar:
-    local-name: cob_driver/cob_sound
-    uri: https://github.com/ipa320/cob_driver-release/archive/release/indigo/cob_sound/0.6.4-0.tar.gz
-    version: cob_driver-release-release-indigo-cob_sound-0.6.4-0
+    local-name: cob_common/raw_description
+    uri: https://github.com/ipa320/cob_common-release/archive/release/indigo/raw_description/0.6.4-0.tar.gz
+    version: cob_common-release-release-indigo-raw_description-0.6.4-0
 - tar:
     local-name: common_msgs/actionlib_msgs
     uri: https://github.com/ros-gbp/common_msgs-release/archive/release/indigo/actionlib_msgs/1.11.8-0.tar.gz
     version: common_msgs-release-release-indigo-actionlib_msgs-1.11.8-0
-- tar:
-    local-name: common_msgs/diagnostic_msgs
-    uri: https://github.com/ros-gbp/common_msgs-release/archive/release/indigo/diagnostic_msgs/1.11.8-0.tar.gz
-    version: common_msgs-release-release-indigo-diagnostic_msgs-1.11.8-0
 - tar:
     local-name: common_msgs/geometry_msgs
     uri: https://github.com/ros-gbp/common_msgs-release/archive/release/indigo/geometry_msgs/1.11.8-0.tar.gz
@@ -59,13 +47,17 @@
     uri: https://github.com/ros-gbp/common_msgs-release/archive/release/indigo/trajectory_msgs/1.11.8-0.tar.gz
     version: common_msgs-release-release-indigo-trajectory_msgs-1.11.8-0
 - tar:
-    local-name: common_msgs/visualization_msgs
-    uri: https://github.com/ros-gbp/common_msgs-release/archive/release/indigo/visualization_msgs/1.11.8-0.tar.gz
-    version: common_msgs-release-release-indigo-visualization_msgs-1.11.8-0
+    local-name: dynamic_reconfigure
+    uri: https://github.com/ros-gbp/dynamic_reconfigure-release/archive/release/indigo/dynamic_reconfigure/1.5.38-0.tar.gz
+    version: dynamic_reconfigure-release-release-indigo-dynamic_reconfigure-1.5.38-0
 - tar:
-    local-name: control_msgs
-    uri: https://github.com/ros-gbp/control_msgs-release/archive/release/indigo/control_msgs/1.3.1-0.tar.gz
-    version: control_msgs-release-release-indigo-control_msgs-1.3.1-0
+    local-name: gazebo_ros_pkgs/gazebo_msgs
+    uri: https://github.com/ros-gbp/gazebo_ros_pkgs-release/archive/release/indigo/gazebo_msgs/2.4.9-0.tar.gz
+    version: gazebo_ros_pkgs-release-release-indigo-gazebo_msgs-2.4.9-0
+- tar:
+    local-name: gazebo_ros_pkgs/gazebo_ros
+    uri: https://github.com/ros-gbp/gazebo_ros_pkgs-release/archive/release/indigo/gazebo_ros/2.4.9-0.tar.gz
+    version: gazebo_ros_pkgs-release-release-indigo-gazebo_ros-2.4.9-0
 - tar:
     local-name: gencpp
     uri: https://github.com/ros-gbp/gencpp-release/archive/release/indigo/gencpp/0.5.3-0.tar.gz
@@ -87,21 +79,21 @@
     uri: https://github.com/ros-gbp/geometry-release/archive/release/indigo/tf/1.11.7-0.tar.gz
     version: geometry-release-release-indigo-tf-1.11.7-0
 - tar:
-    local-name: geometry_experimental/tf2
-    uri: https://github.com/ros-gbp/geometry_experimental-release/archive/release/indigo/tf2/0.5.12-0.tar.gz
-    version: geometry_experimental-release-release-indigo-tf2-0.5.12-0
+    local-name: geometry2/tf2
+    uri: https://github.com/ros-gbp/geometry2-release/archive/release/indigo/tf2/0.5.12-0.tar.gz
+    version: geometry2-release-release-indigo-tf2-0.5.12-0
 - tar:
-    local-name: geometry_experimental/tf2_msgs
-    uri: https://github.com/ros-gbp/geometry_experimental-release/archive/release/indigo/tf2_msgs/0.5.12-0.tar.gz
-    version: geometry_experimental-release-release-indigo-tf2_msgs-0.5.12-0
+    local-name: geometry2/tf2_msgs
+    uri: https://github.com/ros-gbp/geometry2-release/archive/release/indigo/tf2_msgs/0.5.12-0.tar.gz
+    version: geometry2-release-release-indigo-tf2_msgs-0.5.12-0
 - tar:
-    local-name: geometry_experimental/tf2_py
-    uri: https://github.com/ros-gbp/geometry_experimental-release/archive/release/indigo/tf2_py/0.5.12-0.tar.gz
-    version: geometry_experimental-release-release-indigo-tf2_py-0.5.12-0
+    local-name: geometry2/tf2_py
+    uri: https://github.com/ros-gbp/geometry2-release/archive/release/indigo/tf2_py/0.5.12-0.tar.gz
+    version: geometry2-release-release-indigo-tf2_py-0.5.12-0
 - tar:
-    local-name: geometry_experimental/tf2_ros
-    uri: https://github.com/ros-gbp/geometry_experimental-release/archive/release/indigo/tf2_ros/0.5.12-0.tar.gz
-    version: geometry_experimental-release-release-indigo-tf2_ros-0.5.12-0
+    local-name: geometry2/tf2_ros
+    uri: https://github.com/ros-gbp/geometry2-release/archive/release/indigo/tf2_ros/0.5.12-0.tar.gz
+    version: geometry2-release-release-indigo-tf2_ros-0.5.12-0
 - tar:
     local-name: message_generation
     uri: https://github.com/ros-gbp/message_generation-release/archive/release/indigo/message_generation/0.2.10-0.tar.gz
@@ -110,10 +102,6 @@
     local-name: message_runtime
     uri: https://github.com/ros-gbp/message_runtime-release/archive/release/indigo/message_runtime/0.4.12-0.tar.gz
     version: message_runtime-release-release-indigo-message_runtime-0.4.12-0
-- tar:
-    local-name: navigation/move_base_msgs
-    uri: https://github.com/ros-gbp/navigation-release/archive/release/indigo/move_base_msgs/1.12.4-0.tar.gz
-    version: navigation-release-release-indigo-move_base_msgs-1.12.4-0
 - tar:
     local-name: ros/rosbuild
     uri: https://github.com/ros-gbp/ros-release/archive/release/indigo/rosbuild/1.11.8-0.tar.gz
@@ -243,6 +231,10 @@
     uri: https://github.com/ros-gbp/roscpp_core-release/archive/release/indigo/rostime/0.5.6-0.tar.gz
     version: roscpp_core-release-release-indigo-rostime-0.5.6-0
 - tar:
+    local-name: roslint
+    uri: https://github.com/ros-gbp/roslint-release/archive/release/indigo/roslint/0.10.0-0.tar.gz
+    version: roslint-release-release-indigo-roslint-0.10.0-0
+- tar:
     local-name: rospack
     uri: https://github.com/ros-gbp/rospack-release/archive/release/indigo/rospack/2.2.5-0.tar.gz
     version: rospack-release-release-indigo-rospack-2.2.5-0
@@ -250,4 +242,8 @@
     local-name: std_msgs
     uri: https://github.com/ros-gbp/std_msgs-release/archive/release/indigo/std_msgs/0.5.9-1.tar.gz
     version: std_msgs-release-release-indigo-std_msgs-0.5.9-1
+- tar:
+    local-name: xacro
+    uri: https://github.com/ros-gbp/xacro-release/archive/release/indigo/xacro/1.9.4-0.tar.gz
+    version: xacro-release-release-indigo-xacro-1.9.4-0
 
