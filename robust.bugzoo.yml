@@ -325,7 +325,7 @@ blueprints:
   file: Dockerfile
   tag: robustrosin/robust:27e7db9
 - arguments:
-    CATKIN_PACKAGES: cob_android_msgs;cob_android_script_server
+    CATKIN_PACKAGES: cob_android_msgs cob_android_script_server
     IS_BUILD_FAILURE: 'no'
     REPO_BUG_COMMIT: 21126f5e3d2e15ae8c93705dc3e8e999707da48e
     REPO_FIX_COMMIT: 79867c88acc64342f061e6324ed6b84ca7e0773d

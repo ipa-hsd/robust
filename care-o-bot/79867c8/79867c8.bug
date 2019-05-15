@@ -61,6 +61,7 @@ time-machine:
     - cob_android_msgs 
     - cob_android_script_server
   issue: https://github.com/ipa320/cob_android/issues/7
+  datetime: 2015-08-30T08:03:34Z  #datetime later than the original reporting time of the issue, due to the package not being released
   missing-dependencies:
     - cob_common
 bugzoo:
