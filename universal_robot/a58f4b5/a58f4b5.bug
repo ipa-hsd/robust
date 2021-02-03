@@ -57,3 +57,22 @@ fix:
   commits:
     - repo: https://github.com/ros-industrial/universal_robot
       hash: a58f4b506ae8bd774829fb6b7ceede1c1b812d15
+      stats:
+        total:
+          insertions: 6
+          deletions: 3
+          lines: 9
+          files: 3
+        files:
+          ur10_moveit_config/package.xml:
+            insertions: 2
+            deletions: 1
+            lines: 3
+          ur3_moveit_config/package.xml:
+            insertions: 2
+            deletions: 1
+            lines: 3
+          ur5_moveit_config/package.xml:
+            insertions: 2
+            deletions: 1
+            lines: 3
