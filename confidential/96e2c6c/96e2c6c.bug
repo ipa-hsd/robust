@@ -39,7 +39,9 @@ bug:
   reproducibility: sometimes
   trace: TBD
 fix:
-  commits: confidential
+  commits:
+    - repo:
+      hash:
   pull-request: null
   license: ['BSD']
   fix-in: ['trajectory_generation.cpp', 'utils.h']
